@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+/*BACKGROUND TRANSPARENT*/
+.jumbotron-billboard .img {
+  margin-bottom: 0px;
+  opacity: 0.7;
+  color: #fff;
+  background: #000 url("") top center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index:1;
+}
+.jumbotron h2 {margin-top:0;}
+.jumbotron {
+position: relative;
+padding-top:50px;
+padding-bottom:50px;
+}
+.jumbotron .container {
+position: relative;
+z-index:2;
+}
+
+@media screen and (max-width: 768px) {
+.jumbotron {
+  padding-top:20px;
+  padding-bottom:20px;
+}
+}
+
+/*fit images*/
+
+.img-responsive {
+  height: auto;
+  width: auto;
+  max-height: 40px;
+  max-width: 250px;
+}
+
+/*OPACITY OVERRIDE
+
+.cardCSS{
+  opacity: 0.7;
+  height: 50%;
+}
+*/
+
+
+/*h1 TEXT*/
+
+h1 {
+  font-size: 150%;
+  text-shadow: 3px 3px black;
+  font-family: 'Lobster Two', cursive;
+}
+
+
+.thumbnailSize {
+  height: 30px;
+  width: 30px;
+}
+
+.text-rubik {
+  font-family: 'Rubik', sans-serif;
+}
+
+p {
+  font-weight: normal;
+}
